@@ -7,7 +7,7 @@
 	<persistence-unit name="MeetusPU" transaction-type="JTA">
 		<jta-data-source>java:/Meetus</jta-data-source>
 		<class>pe.edu.upc.Meetus.models.entities.Appreciation</class>
-		<class>pe.edu.upc.Meetus.models.entities.MeetingT</class>
+		<class>pe.edu.upc.Meetus.models.entities.Guest</class>
 		
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
